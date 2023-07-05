@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Regisration Form</h2>
+    <form action="backend.php">
+        <div>
+            Name: <input type="text" name="MyName">
+        </div>
+        <br>
+        <div>
+            Age: <input type="number" name="MyAge"> 
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="MyGender"> Female<input type="radio" name="MyGender"> Others<input type="radio" name="MyGender">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="MyEmial" > 
+        </div>
+        <br>
+        <div>
+            <label for="religion">Religion</label>
+            <select name="myReligion" id="religion">
+                <option value="select">Select</option>
+                <option value="muslim">Muslim</option>
+                <option value="hindu">Hindu</option>
+                <option value="christain">Christain</option>
+            </select> 
+        </div>
+        <br>
+        <div>
+            About your self: <br><textarea name="myText" cols="30" rows="10"></textarea> 
+        </div>
+        <br>
+        <div>
+            Form Submit Date: <input type="date" name="CurrentDate" > 
+        </div>
+        <br>
+        <h4>
+            Terms and Condition
+        </h4>
+        <div>
+            I accept: <input type="checkbox" name="True" > 
+            <a href="https://policies.google.com/">Privarcy Policy</a>
+        </div>
+        <br>
+        <div>
+           <input type="submit" name="Submit Now" > 
+           <input type="reset" name="reset now" > 
+        </div>
+        
+    </form>
+</body>
+</html>
